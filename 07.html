@@ -1,0 +1,28 @@
+<script>
+    //Problema: Cor Preferida
+    /*
+    Considere a seguinte lista de cores:
+    let cores = ["Branco", "Azul", "Marrom", "Cinza", "Verde", "Amarelo", "Vermelho", "Preto"];
+    Pergunte ao usuário qual das cores da lista que ele gosta.
+    Apresente as cores preferidas e a quantidade de cores que o usuário gosta.
+    */
+
+    //Entrada
+    let cores = ["Branco", "Azul", "Marrom", "Cinza", "Verde", "Amarelo", "Vermelho", "Preto"];
+    coresPreferidas = [];
+    for (let cor of cores) {
+        let corGosta = prompt(`gosta da cor ${cor}`);
+        if (corGosta === "sim") {
+        coresPreferidas.push(cor)
+    }
+}
+    let quantidadeCores = coresPreferidas.length;
+    alert("As cores preferidas são: " + coresPreferidas.join(", ") + quantidadeCores);
+
+
+    //Processamento
+
+
+    //Saída
+
+</script>
